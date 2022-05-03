@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guercif.dinoname">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DinoName">
+        <activity
+            android:name=".Spanish.Spanish_quiz.Spanish_ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Spanish.Spanish_quiz.Spanish_Wrong_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spanish.Spanish_quiz.Spanish_Right_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spanish.Spanish_quiz.Spanish_Quiz_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fransh.Fransh_quiz.Fransh_Wrong_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fransh.Fransh_quiz.Fransh_Score_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fransh.Fransh_quiz.Fransh_Right_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fransh.Fransh_quiz.Fransh_Quiz_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".English.English_quiz.English_Wrong_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".English.English_quiz.English_Score_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".English.English_quiz.English_Right_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".English.English_quiz.English_Quiz_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Arabic.Arabic_quiz.Arabic_Right_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Arabic.Arabic_quiz.Arabic_Wrong_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Arabic.Arabic_quiz.Arabic_Score_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Arabic.Arabic_quiz.Arabic_Quiz_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spanish.Spanish_Language_Game_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fransh.Fransh_Language_Game_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".English.English_Language_Game_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Arabic.Arabic_Language_Game_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
